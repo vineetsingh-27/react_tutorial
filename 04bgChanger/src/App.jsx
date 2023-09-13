@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 function App() {
-  const [color, setColor] = useState('olive')
+  const [color, setColor] = useState('#4FC3F7')
   return (
     <>
       <div className="w-full h-screen duration-200" style={{ backgroundColor: color }}>
